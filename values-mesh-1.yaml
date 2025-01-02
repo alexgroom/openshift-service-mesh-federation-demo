@@ -12,13 +12,13 @@
 # 2.  You may change mesh version to a newer version if available and if compatible.
 
 local-mesh-name: ossm1
-local-mesh-version: v2.2
-local-mesh-ctl-plane-namespace: peter-ossm1-ctl
-local-mesh-bookinfo-namespace: peter-ossm1-app
+local-mesh-version: v2.4
+local-mesh-ctl-plane-namespace: ossm1-ctl
+local-mesh-bookinfo-namespace: ossm1-app
 
 remote-mesh-name: ossm2
-remote-mesh-ctl-plane-namespace: peter-ossm2-ctl
-remote-mesh-bookinfo-namespace: peter-ossm2-app
+remote-mesh-ctl-plane-namespace: ossm2-ctl
+remote-mesh-bookinfo-namespace: ossm2-app
 
 
 # Type 1:

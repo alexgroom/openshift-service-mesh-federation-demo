@@ -1,17 +1,18 @@
 #!/bin/sh
+set -x
 
 #####################################################
 #                                                   #
 #       Variable, update based on your needs        #
 #                                                   #
 #####################################################
-MESH_1_OCP_SERVER_URL="https://XXXXX"
-MESH_1_OCP_TOKEN="sha256~XXXXX"
-MESH_1_HELM_RELEASE_NAMESPACE="peter-ossm-helm"
+MESH_1_OCP_SERVER_URL="https://api.cluster-XXXXX.opentlc.com:6443"
+MESH_1_OCP_TOKEN="sha256~MXd2AzPinDJXSXL1wxgMNi1btZ_f4d75_XXXX"
+MESH_1_HELM_RELEASE_NAMESPACE="ossm-helm1"
 
-MESH_2_OCP_SERVER_URL="https://XXXXX"
-MESH_2_OCP_TOKEN="sha256~XXXXX"
-MESH_2_HELM_RELEASE_NAMESPACE="peter-ossm-helm"
+MESH_2_OCP_SERVER_URL="https://api.cluster-XXXXX.opentlc.com:6443"
+MESH_2_OCP_TOKEN="sha256~MXd2AzPinDJXSXL1wxgMNi1btZ_f4d75_XXXX"
+MESH_2_HELM_RELEASE_NAMESPACE="ossm-helm2"
 
 
 #####################################################
